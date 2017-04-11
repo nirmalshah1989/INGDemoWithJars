@@ -11,7 +11,7 @@ Dependency-2				--> Independant Jar module
 Understanding :
 1. Parent pom is with pom packging structurere.
 2. Utility	,Dependency-1 and Dependency-2 are added as dependency in WebModule.
-3. It is assumed that Dependency-2 and Dependency-1 would have other rest web-services which is accessed by WebModule.
+3. It is assumed that Dependency-2 and Dependency-1 would have other rest web-service endpoints which will be accessed by WebModule.
 4. INGEar modle consist Ear file which include WebModule war file.
 
 This appplication consist 5 different endpoints : 
