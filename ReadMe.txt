@@ -1,12 +1,12 @@
 This is Demo application for creating monitoring services in Java Enterprise application.
 
 This application contains below Modlules.
-INGParent					--> Parent Module
+Parent						--> Parent Module
 INGEar						--> Ear Module which creates EAR. Below MOdules are added in single EAR	
 WebModule					--> War Module which is dependent on below 3 modules.
 Utility						--> Jar module which consist Java code for DAO,Service layer
-WebModule1					--> Independant War module
-WebModule2					--> Independant War module
+Dependency-1				--> Independant Jar module
+Dependency-1				--> Independant Jar module
 
 This appplication consist 5 different endpoints : 
 1. 	http://localhost:8080/WebModule/rest/statuscheck/db 		--> This will give us status whether DB server as UP or DOWN
